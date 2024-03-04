@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "majnrcurrencymod",
+	"version": "${version}",
+	"name": "Majnr Currency Mod",
+	"description": "Tento jednoduchý mod přidává vlastní speciální měnu tak zvanou Majnr Currency. Speciálně dělané pro promenádu/obchody.",
+	"authors": [
+		"Gatorex / Xeroo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/majnrcurrencymod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.xeroo.majnrcurrencymod.MajnrCurrencyMod"
+		],
+
+		"client": [
+			"net.xeroo.majnrcurrencymod.MajnrCurrencyModClient"
+		],
+
+		"fabric-datagen": [
+			"net.xeroo.majnrcurrencymod.MajnrCurrencyModDataGenerator"
+		]
+	},
+	"mixins": [
+		"majnrcurrencymod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
