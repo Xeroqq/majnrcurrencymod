@@ -13,6 +13,6 @@ public class MajnrCurrencyMod implements ModInitializer {
 	public void onInitialize() {
 
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Hello Fabric world");
 	}
 }
