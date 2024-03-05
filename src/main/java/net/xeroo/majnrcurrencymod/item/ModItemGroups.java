@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.GOLDCOIN);
                         entries.add(ModItems.SILVERCOIN);
                         entries.add(ModItems.COPPERCOIN);
+                        entries.add(ModItems.COPPERNUGGET);
 
 
                         entries.add(Items.DIAMOND);

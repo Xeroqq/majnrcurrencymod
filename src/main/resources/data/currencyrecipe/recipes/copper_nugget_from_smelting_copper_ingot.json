@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "copper_coin",
+  "ingredient": {
+    "item": "minecraft:copper_ingot"
+  },
+  "result": "majnrcurrencymod:copper_nugget"
+}
