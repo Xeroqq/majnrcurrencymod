@@ -14,10 +14,29 @@ import net.xeroo.majnrcurrencymod.MajnrCurrencyMod;
 
 public class ModItems {
     public static final Item DOLLAR = registerItem("dollar", new Item(new FabricItemSettings()));
+    public static final Item BUNDLE_EMPTY = registerItem("bundle_empty", new Item(new FabricItemSettings()));
+    public static final Item MONEY_BUNDLE = registerItem("money_bundle", new Item(new FabricItemSettings()));
+    public static final Item GOLDCOIN = registerItem("gold_coin", new Item(new FabricItemSettings()));
+    public static final Item SILVERCOIN = registerItem("silver_coin", new Item(new FabricItemSettings()));
+    public static final Item COPPERCOIN = registerItem("copper_coin", new Item(new FabricItemSettings()));
+    public static final Item COINBUNDLEEMPTY = registerItem("coin_bundle_empty", new Item(new FabricItemSettings()));
+    public static final Item COINBUNDLE = registerItem("coin_bundle", new Item(new FabricItemSettings()));
+
+
+
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(DOLLAR);
+        entries.add(BUNDLE_EMPTY);
+        entries.add(MONEY_BUNDLE);
+        entries.add(GOLDCOIN);
+        entries.add(SILVERCOIN);
+        entries.add(COPPERCOIN);
+        entries.add(COINBUNDLEEMPTY);
+        entries.add(COINBUNDLE);
     }
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MajnrCurrencyMod.MOD_ID, name), item);
     }

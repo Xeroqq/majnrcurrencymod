@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "majnrcurrencymod:item/coin_bundle_empty"
+  }
+}

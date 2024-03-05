@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "majnrcurrencymod:item/MONEY_BUNDLE"
+    "layer0": "majnrcurrencymod:item/copper_coin"
   }
 }

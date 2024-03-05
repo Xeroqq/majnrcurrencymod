@@ -1,3 +1,12 @@
 {
-  "item.majnrcurrencymod.dollar": "Dollar"
+  "item.majnrcurrencymod.dollar": "Dollar",
+  "item.majnrcurrencymod.bundle_empty": "Empty Money Bundle",
+  "item.majnrcurrencymod.money_bundle": "Money Bundle",
+  "item.majnrcurrencymod.gold_coin": "Gold Coin",
+  "item.majnrcurrencymod.silver_coin": "Silver Coin",
+  "item.majnrcurrencymod.copper_coin": "Copper Coin",
+  "item.majnrcurrencymod.coin_bundle_empty": "Coin Bundle Empty",
+  "item.majnrcurrencymod.coin_bundle": "Coin Bundle",
+
+  "itemgroup.dollar": "Currency Group"
 }
