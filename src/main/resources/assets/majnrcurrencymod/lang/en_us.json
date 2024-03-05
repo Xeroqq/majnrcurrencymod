@@ -5,9 +5,11 @@
   "item.majnrcurrencymod.gold_coin": "Gold Coin",
   "item.majnrcurrencymod.silver_coin": "Silver Coin",
   "item.majnrcurrencymod.copper_coin": "Copper Coin",
-  "item.majnrcurrencymod.coin_bundle_empty": "Coin Bundle Empty",
+  "item.majnrcurrencymod.coin_bundle_empty": "Empty Coin Bundle",
   "item.majnrcurrencymod.coin_bundle": "Coin Bundle",
   "item.majnrcurrencymod.copper_nugget": "Copper Nugget",
+  "item.majnrcurrencymod.ten_bucks": "Ten Bucks",
+  "item.majnrcurrencymod.twenty_bucks": "Twenty Bucks",
 
   "itemgroup.dollar": "Currency Group"
 }

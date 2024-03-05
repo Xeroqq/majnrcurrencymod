@@ -22,6 +22,8 @@ public class ModItems {
     public static final Item COINBUNDLEEMPTY = registerItem("coin_bundle_empty", new Item(new FabricItemSettings()));
     public static final Item COINBUNDLE = registerItem("coin_bundle", new Item(new FabricItemSettings()));
     public static final Item COPPERNUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
+    public static final Item DOLLAR02 = registerItem("ten_bucks", new Item(new FabricItemSettings()));
+    public static final Item DOLLAR03 = registerItem("twenty_bucks", new Item(new FabricItemSettings()));
 
 
 
@@ -36,6 +38,8 @@ public class ModItems {
         entries.add(COINBUNDLEEMPTY);
         entries.add(COINBUNDLE);
         entries.add(COPPERNUGGET);
+        entries.add(DOLLAR02);
+        entries.add(DOLLAR03);
     }
 
 
