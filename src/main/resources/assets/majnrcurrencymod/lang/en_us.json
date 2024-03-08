@@ -10,6 +10,16 @@
   "item.majnrcurrencymod.copper_nugget": "Copper Nugget",
   "item.majnrcurrencymod.ten_bucks": "Ten Bucks",
   "item.majnrcurrencymod.twenty_bucks": "Twenty Bucks",
+  "item.majnrcurrencymod.unvalued_paper": "Unvalued Paper",
+  "item.majnrcurrencymod.economic_knowledge_scheme": "Economic Knowledge Scheme",
+  "item.majnrcurrencymod.duct_type": "Duct Type",
+
+  "block.majnrcurrencymod.pile_of_bucks": "Pile of Bucks",
+  "block.majnrcurrencymod.pile_of_ten_bucks": "Pile of Ten Bucks",
+  "block.majnrcurrencymod.pile_of_twenty_bucks": "Pile of Twenty Bucks",
+  "block.majnrcurrencymod.pile_of_gold_coins": "Pile of Gold Coins",
+  "block.majnrcurrencymod.pile_of_silver_coins": "Pile of Silver Coins",
+  "block.majnrcurrencymod.pile_of_copper_coins": "Pile of Copper Coins",
 
   "itemgroup.dollar": "Currency Group"
 }

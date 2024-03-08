@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:slime_ball"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "W": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "pattern": [
+    "PPW",
+    "PPS",
+    "PSW"
+  ],
+  "result": {
+    "count": 1,
+    "item": "majnrcurrencymod:duct_type"
+  }
+}

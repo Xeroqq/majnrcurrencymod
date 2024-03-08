@@ -24,6 +24,9 @@ public class ModItems {
     public static final Item COPPERNUGGET = registerItem("copper_nugget", new Item(new FabricItemSettings()));
     public static final Item DOLLAR02 = registerItem("ten_bucks", new Item(new FabricItemSettings()));
     public static final Item DOLLAR03 = registerItem("twenty_bucks", new Item(new FabricItemSettings()));
+    public static final Item UNVALUEDPAPER = registerItem("unvalued_paper", new Item(new FabricItemSettings()));
+    public static final Item ECONOMICKNOWLEDGESCHEME = registerItem("economic_knowledge_scheme", new Item(new FabricItemSettings()));
+    public static final Item DUCT_TYPE = registerItem("duct_type", new Item(new FabricItemSettings()));
 
 
 
@@ -40,6 +43,9 @@ public class ModItems {
         entries.add(COPPERNUGGET);
         entries.add(DOLLAR02);
         entries.add(DOLLAR03);
+        entries.add(UNVALUEDPAPER);
+        entries.add(ECONOMICKNOWLEDGESCHEME);
+        entries.add(DUCT_TYPE);
     }
 
 

@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.xeroo.majnrcurrencymod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup CURRENCY_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -26,6 +27,17 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPERNUGGET);
                         entries.add(ModItems.DOLLAR02);
                         entries.add(ModItems.DOLLAR03);
+                        entries.add(ModItems.ECONOMICKNOWLEDGESCHEME);
+                        entries.add(ModItems.UNVALUEDPAPER);
+                        entries.add(ModItems.DUCT_TYPE);
+
+                        entries.add(ModBlocks.PILE_OF_BUCKS);
+                        entries.add(ModBlocks.PILE_OF_TEN_BUCKS);
+                        entries.add(ModBlocks.PILE_OF_TWENTY_BUCKS);
+
+                        entries.add(ModBlocks.PILE_OF_COPPER_COINS);
+                        entries.add(ModBlocks.PILE_OF_SILVER_COINS);
+                        entries.add(ModBlocks.PILE_OF_GOLD_COINS);
 
 
                         entries.add(Items.DIAMOND);

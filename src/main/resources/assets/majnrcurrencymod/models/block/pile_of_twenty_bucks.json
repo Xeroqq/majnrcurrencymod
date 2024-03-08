@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "majnrcurrencymod:block/pile_of_twenty_bucks_top_bottom",
+    "side": "majnrcurrencymod:block/pile_of_twenty_bucks"
+  }
+}
+
